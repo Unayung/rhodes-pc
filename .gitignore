@@ -13,3 +13,16 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+*.DS_Store
+*.swp
+.env
+public/uploads
+vendor/bundler_gems
+config/database.yml
+doc/
+db/sphinx
+log/*.pid
+config/development.sphinx.conf
+/.idea
+config/s3.yml
+Guardfile
