@@ -18,6 +18,7 @@ set :git_shallow_clone, 1
 set :use_sudo, false
 set :rvm_ruby_string, '1.9.3'
 set :whenever_command, "bundle exec whenever"
+set :ssh_options, {:forward_agent => true}
 
 namespace :my_tasks do
   task :symlink, :roles => [:web] do
